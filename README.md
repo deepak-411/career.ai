@@ -77,10 +77,7 @@ flowchart TD
     G --> H[Personalized Roadmap]
 
     H --> I[Text Output]
-    H --> J[Audio Summary Generator]
-
-    J --> K[Text-to-Speech Engine]
-    K --> L[Commute Audio Player]
+    
 
     style C fill:#1f2937,color:#fff
     style F fill:#2563eb,color:#fff
