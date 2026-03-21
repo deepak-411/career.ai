@@ -1,62 +1,121 @@
-# mycareer.ai  
-### AI-Adaptive Career Onboarding Engine with Commute Audio Summaries
+#  mycareer.ai  
+### AI-Driven Adaptive Onboarding & Learning Engine  
 
-mycareer.ai is an AI-powered platform that analyzes your resume and target job description, identifies skill gaps, and generates a personalized learning roadmap — complete with an audio summary for on-the-go learning.
-
----
-
-##  Features
-
-###  Intelligent Skill Analysis
-- Extracts hard and soft skills from resume and job description
-- Assigns proficiency levels (L1–L5)
-- Powered by Gemini 3 Flash
-
-###  Adaptive Learning Path
-- Generates a structured week-by-week roadmap
-- Prioritizes skill gaps and prerequisites
-- Uses a curated course catalog
-
-###  Commute Audio Summary
-- Converts your learning roadmap into audio
-- Ideal for learning during travel or commute
-- Powered by Gemini 2.5 TTS
-
-### Security & Privacy
-- No hardcoded API keys
-- Environment-based configuration
-- Zero-retention design approach
-
-###  Modern UI/UX
-- Glassmorphism SaaS interface
-- Smooth animations with Framer Motion
-- Clean typography (Space Grotesk)
+mycareer.ai is an AI-powered onboarding platform designed to solve inefficiencies in traditional corporate training systems. It dynamically analyzes a candidate’s current capabilities and generates a personalized, role-specific learning roadmap — enhanced with an audio summary for seamless learning during commutes.
 
 ---
 
-## Tech Stack
+##  Problem Statement
 
-**Frontend**
-- React 19
-- Tailwind CSS 4
-- Framer Motion
+Current corporate onboarding systems rely on static, one-size-fits-all training programs. This leads to:
 
-**AI Integration**
-- Gemini 3 Flash (Skill Analysis)
-- Gemini 2.5 Flash TTS (Audio Summary)
+-  Experienced hires wasting time on known concepts  
+-  Beginners being overwhelmed by advanced modules  
+-  Reduced learning efficiency and engagement  
 
-**Build Tools**
-- Vite
-- TypeScript
+###  The Challenge
 
-**Deployment**
-- Vercel
+Build an AI-driven adaptive learning engine that:
+
+- Parses a candidate’s current capabilities (Resume / Diagnostic)
+- Identifies skill gaps against a target Job Description
+- Generates a personalized training pathway to achieve role-specific competency  
 
 ---
 
-##  Setup Instructions
+##  Minimum Required Features (Implemented)
 
-### 1. Clone Repository
-```bash
-git clone https://github.com/your-username/mycareer.ai.git
-cd mycareer.ai
+###  Intelligent Parsing
+- Extracts skills from:
+  - Resume
+  - Job Description
+- Determines proficiency levels (L1–L5)
+- AI-powered using Gemini 3 Flash
+
+---
+
+###  Dynamic Mapping
+- Identifies **skill gaps**
+- Generates **personalized learning roadmap**
+- Structures content into **week-by-week progression**
+- Integrates prerequisite-aware course sequencing
+
+---
+
+###  Functional Interface
+- Web-based UI built with React
+- Input fields for:
+  - Resume
+  - Target Job Description
+- Visual output:
+  - Skill Gap Analysis
+  - Learning Roadmap
+  - Audio Summary Player
+
+---
+
+##  Key Features
+
+-  AI-powered Skill Gap Analysis  
+-  Adaptive Learning Path Generation  
+-  Commute-Friendly Audio Summaries (Gemini TTS)  
+-  Secure API Handling (Environment Variables)  
+-  Modern SaaS UI (Glassmorphism + Motion Animations)  
+
+---
+
+##  System Architecture
+
+```mermaid
+flowchart TD
+    A[User Input] --> B[Resume + Job Description]
+    B --> C[AI Parsing Engine]
+    C --> D[Skill Extraction]
+    D --> E[Skill Gap Analysis]
+    E --> F[Learning Path Generator]
+    F --> G[Course Mapping Engine]
+    G --> H[Personalized Roadmap]
+
+    H --> I[Text Output]
+    H --> J[Audio Summary Generator]
+
+    J --> K[Text-to-Speech Engine]
+    K --> L[Commute Audio Player]
+
+    style C fill:#1f2937,color:#fff
+    style F fill:#2563eb,color:#fff
+    style J fill:#059669,color:#fff
+
+
+
+
+##  Frontend
+React 19
+Tailwind CSS 4
+Framer Motion
+
+Install Dependencies
+npm install
+
+
+##  Project Structure
+src/
+src/
+ ├── ai/
+ │    └── flows.ts          # AI logic (analysis + TTS)
+ ├── lib/
+ │    └── course-catalog.ts # Learning resources
+ ├── App.tsx                # UI Layer
+ ├── main.tsx
+ └── index.css
+
+
+
+
+
+---
+
+If you want next level 🔥, I can:
+- Add **badges (Vercel deploy, build status, license)**
+- Create **portfolio-style README with screenshots**
+- Or design a **presentation PPT for judges**
