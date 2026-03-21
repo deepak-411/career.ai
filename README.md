@@ -42,6 +42,21 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
+
+##  Project Structure
+src/
+ ├── ai/
+ │    └── flows.ts          # AI logic (analysis + TTS)
+ ├── lib/
+ │    └── course-catalog.ts # Learning resources
+ ├── App.tsx                # UI Layer
+ ├── main.tsx
+ └── index.css
+
+
+---
+
+
 ###  Functional Interface
 - Web-based UI built with React  
 - Input fields for:
@@ -83,13 +98,3 @@ flowchart TD
     style F fill:#2563eb,color:#fff
     style J fill:#059669,color:#fff
 
----
-##  Project Structure
-src/
- ├── ai/
- │    └── flows.ts          # AI logic (analysis + TTS)
- ├── lib/
- │    └── course-catalog.ts # Learning resources
- ├── App.tsx                # UI Layer
- ├── main.tsx
- └── index.css
