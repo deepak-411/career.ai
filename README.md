@@ -83,8 +83,8 @@ flowchart TD
     style F fill:#2563eb,color:#fff
     style J fill:#059669,color:#fff
 
-
-
+---
+##  Project Structure
 src/
  ├── ai/
  │    └── flows.ts          # AI logic (analysis + TTS)
