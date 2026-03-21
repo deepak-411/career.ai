@@ -64,7 +64,7 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
-##  System Architecture
+
 
 ```mermaid
 flowchart TD
