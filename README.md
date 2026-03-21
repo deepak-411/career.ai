@@ -82,3 +82,14 @@ flowchart TD
     style C fill:#1f2937,color:#fff
     style F fill:#2563eb,color:#fff
     style J fill:#059669,color:#fff
+
+
+
+src/
+ ├── ai/
+ │    └── flows.ts          # AI logic (analysis + TTS)
+ ├── lib/
+ │    └── course-catalog.ts # Learning resources
+ ├── App.tsx                # UI Layer
+ ├── main.tsx
+ └── index.css
