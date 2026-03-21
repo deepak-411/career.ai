@@ -43,21 +43,6 @@ Build an AI-driven adaptive learning engine that:
 ---
 
 
-
-
-### src/
- ├── ai/
- │    └── flows.ts          # AI logic (analysis + TTS)
- ├── lib/
- │    └── course-catalog.ts # Learning resources
- ├── App.tsx                # UI Layer
- ├── main.tsx
- └── index.css
-
-
----
-
-
 ###  Functional Interface
 - Web-based UI built with React  
 - Input fields for:
