@@ -59,7 +59,7 @@ Build an AI-driven adaptive learning engine that:
 
 -  AI-powered Skill Gap Analysis  
 -  Adaptive Learning Path Generation  
--  Commute-Friendly Audio Summaries  
+
 -  Secure API Handling (Environment Variables)  
 -  Modern SaaS UI (Glassmorphism + Motion Animations)  
 
