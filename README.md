@@ -1,40 +1,40 @@
-# 🚀 mycareer.ai  
+# mycareer.ai  
 ### AI-Adaptive Career Onboarding Engine with Commute Audio Summaries
 
 mycareer.ai is an AI-powered platform that analyzes your resume and target job description, identifies skill gaps, and generates a personalized learning roadmap — complete with an audio summary for on-the-go learning.
 
 ---
 
-## 🌟 Features
+##  Features
 
-### 🧠 Intelligent Skill Analysis
+###  Intelligent Skill Analysis
 - Extracts hard and soft skills from resume and job description
 - Assigns proficiency levels (L1–L5)
 - Powered by Gemini 3 Flash
 
-### 📈 Adaptive Learning Path
+###  Adaptive Learning Path
 - Generates a structured week-by-week roadmap
 - Prioritizes skill gaps and prerequisites
 - Uses a curated course catalog
 
-### 🎧 Commute Audio Summary
+###  Commute Audio Summary
 - Converts your learning roadmap into audio
 - Ideal for learning during travel or commute
 - Powered by Gemini 2.5 TTS
 
-### 🔐 Security & Privacy
+### Security & Privacy
 - No hardcoded API keys
 - Environment-based configuration
 - Zero-retention design approach
 
-### 🎨 Modern UI/UX
+###  Modern UI/UX
 - Glassmorphism SaaS interface
 - Smooth animations with Framer Motion
 - Clean typography (Space Grotesk)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 **Frontend**
 - React 19
@@ -54,7 +54,7 @@ mycareer.ai is an AI-powered platform that analyzes your resume and target job d
 
 ---
 
-## ⚙️ Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone Repository
 ```bash
