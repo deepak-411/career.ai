@@ -1,19 +1,19 @@
-# 🚀 mycareer.ai  
+#  Mycareer.ai  
 ### AI-Driven Adaptive Onboarding & Learning Engine  
 
 mycareer.ai is an AI-powered onboarding platform designed to solve inefficiencies in traditional corporate training systems. It dynamically analyzes a candidate’s current capabilities and generates a personalized, role-specific learning roadmap — enhanced with an audio summary for seamless learning during commutes.
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 Current corporate onboarding systems rely on static, one-size-fits-all training programs. This leads to:
 
-- ⏳ Experienced hires wasting time on known concepts  
-- 😵 Beginners being overwhelmed by advanced modules  
-- 📉 Reduced learning efficiency and engagement  
+-  Experienced hires wasting time on known concepts  
+-  Beginners being overwhelmed by advanced modules  
+-  Reduced learning efficiency and engagement  
 
-### 🎯 The Challenge
+###  The Challenge
 
 Build an AI-driven adaptive learning engine that:
 
@@ -23,9 +23,9 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
-## ✅ Minimum Required Features (Implemented)
+##  Minimum Required Features (Implemented)
 
-### 🧠 Intelligent Parsing
+###  Intelligent Parsing
 - Extracts skills from:
   - Resume  
   - Job Description  
@@ -34,7 +34,7 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
-### 🔄 Dynamic Mapping
+###  Dynamic Mapping
 - Identifies **skill gaps**  
 - Generates **personalized learning roadmap**  
 - Structures content into **week-by-week progression**  
@@ -42,7 +42,7 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
-### 🌐 Functional Interface
+###  Functional Interface
 - Web-based UI built with React  
 - Input fields for:
   - Resume  
@@ -54,17 +54,17 @@ Build an AI-driven adaptive learning engine that:
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
-- 📊 AI-powered Skill Gap Analysis  
-- 📚 Adaptive Learning Path Generation  
-- 🎧 Commute-Friendly Audio Summaries (Gemini TTS)  
-- 🔐 Secure API Handling (Environment Variables)  
-- 🎨 Modern SaaS UI (Glassmorphism + Motion Animations)  
+-  AI-powered Skill Gap Analysis  
+-  Adaptive Learning Path Generation  
+-  Commute-Friendly Audio Summaries (Gemini TTS)  
+-  Secure API Handling (Environment Variables)  
+-  Modern SaaS UI (Glassmorphism + Motion Animations)  
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 ```mermaid
 flowchart TD
