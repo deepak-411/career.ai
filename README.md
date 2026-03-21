@@ -30,7 +30,7 @@ Build an AI-driven adaptive learning engine that:
   - Resume  
   - Job Description  
 - Determines proficiency levels (L1–L5)  
-- Powered by Gemini 3 Flash  
+  
 
 ---
 
@@ -51,7 +51,7 @@ Build an AI-driven adaptive learning engine that:
 - Visual output:
   - Skill Gap Analysis  
   - Learning Roadmap  
-  - Audio Summary Player  
+ 
 
 ---
 
@@ -59,7 +59,7 @@ Build an AI-driven adaptive learning engine that:
 
 -  AI-powered Skill Gap Analysis  
 -  Adaptive Learning Path Generation  
--  Commute-Friendly Audio Summaries (Gemini TTS)  
+-  Commute-Friendly Audio Summaries  
 -  Secure API Handling (Environment Variables)  
 -  Modern SaaS UI (Glassmorphism + Motion Animations)  
 
