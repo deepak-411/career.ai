@@ -45,7 +45,7 @@ Build an AI-driven adaptive learning engine that:
 
 
 
-src/
+```mermaid src/
  ├── ai/
  │    └── flows.ts          # AI logic (analysis + TTS)
  ├── lib/
